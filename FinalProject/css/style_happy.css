@@ -1,4 +1,4 @@
- @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic');
 a:link {
     color: white;
     background-color: transparent;
@@ -27,11 +27,11 @@ a:active {
  }
  #background {
         background-color: #ffffe5;
-        height: 1400px;
+        height: 700px;
  }
  #logo {
         padding-top: 10px;
-        padding-left: 120px;
+        padding-left: 70px;
         width: 50px;
         height: 50px;
         clear: both;
@@ -54,9 +54,23 @@ a:active {
          margin-right: 40px;
          clear: both;
  }
+ table {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        clear: both;
+        color: navy blue;
+        font-size: 20px;
+        font-weight: 300px;
+        padding-top: 100px;
+        clear: both;
+        display: inline-block;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+ }
 #GGimage {
         float: left;
-        margin-left: 120px;
+        margin-left: 70px;
         width: 300px;
         box-shadow: 110px 10px 5px #888888;
         margin-right: 50px;
@@ -88,8 +102,7 @@ h1 {
         padding-top: 150px;
         width: 1000px;
         display: inline-block;
-        padding-left: 130px;
-        line-height: 120%;
+        padding-left: 100px;
 }
 #footer {
 	margin-left: 45%;

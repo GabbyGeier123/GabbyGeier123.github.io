@@ -1,18 +1,59 @@
  @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic');
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+hr {
+    color: white;
+    margin-top: 30px;
+    width: 800px;
+    margin:auto;
+    height: 0px;
 
-#bike-pic {   
-        background-image: url("IMG_3340.jpg");        
-        background-position: center;
-        background-position: no-repeat;
-        text-align: center;
-        background-size: 100% 100%;
-        height: 1000px;
-        width: 1400px;
-        margin:auto;
+}
+html {   
+        background-image: url("home_cover1.jpg");        
+         min-height: 100%;
+         min-width: 1024px;
+          width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        clear: both;
+  
+}
+#logo {
+        padding-top: 10px;
+        padding-left: 70px;
+        width: 50px;
+        height: 50px;
+        clear: both;
+        display: inline-block;
+        float: left;
 }
 .header {
          font-family: 'Open Sans', sans-serif;
-         padding-top: 200px;
+         padding-top: 170px;
+         margin-right: none;
+         margin-left: none;
+         margin:auto;
          color: white;
          text-align: center;
          font-size: 30px;
@@ -24,15 +65,15 @@
  }
  li {
         display: inline;
+        padding-right:80px;
+        clear: both;
  }
 #footer {
-	margin-left: 45%;
-	padding-top:80px;
-}
-footer {
-	background-color: #79d3a6;
-	height: 200px;
-        clear: both;
-        width: cover;
+    margin: auto;
+    clear:both;
+    display: inline-block;
+    width: 500px;
+    padding-top: 40px;
+    margin-left: 45%
 
 }
