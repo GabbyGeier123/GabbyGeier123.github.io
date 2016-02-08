@@ -19,7 +19,19 @@
       		  </nav>
 		</header>
     <div id="background">
-    <a id="GGimage"><img src="images/IMG_2901.jpg" alt="Gabby Geier" style="height:400px"></a>
+      <!-- 
+        Why is the image here inside an <a> tag with no href attribute?  Should this image link somewhere?
+        Also, the image is broken because the extension ".jpg" is actually in all caps in the file name.  
+        Case matters in this case. 
+      -->
+    <a id="GGimage"><img src="images/IMG_2901.JPG" alt="Gabby Geier" style="height:400px"></a>
+
+    <!-- 
+      The content on your page is not really floating along side of your image (above).  I think this is 
+      because your content is by default 100% width, so there is no space for it to float along side your 
+      image.  I would put all of this content inside a container (i.e. <article>, <section>, <div>, etc) 
+      and style that container to give it a width so it is narrow enough to float along side the image. 
+    -->
           <p class="hi"> Hi! I'm Gabby. I’m a type "A", New York City, marathon running, corporate PR firm, entertainment marketing account management gal turned Washintonian, yoga loving, bike riding, small non-profit, scrappy, graphic design and digital marketing guru. <br><br><br> When I am not practicing yoga or riding my bike, I am traveling. I believe travel and adventure are the best ways to learn. Seeing how other people live gives us an invaluable perspective and reminds us not to take ourselves so seriously.</p>
 
           <div id="resume">

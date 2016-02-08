@@ -4,6 +4,13 @@ a:link {
     background-color: transparent;
     text-decoration: none;
 }
+/* Since the a:visited and a:active styles are the same, you can combine the selectors into 1 CSS block
+ * by using a comma - i.e.:
+ * 
+ *   a:visited, a:active {
+ *      styles go here
+ *   }
+ */
 a:visited {
     color: white;
     background-color: transparent;
@@ -21,7 +28,7 @@ a:active {
 }
 .header {
          font-family: 'Open Sans', sans-serif;
-         width: cover;
+         width: cover; /* cover is not a valid width option.  this should be a px, %, or "auto" */
          height: 130px;
          background: #4775d1;
  }
@@ -58,9 +65,12 @@ a:active {
         text-align: center;
         font-family: 'Open Sans', sans-serif;
         clear: both;
-        color: navy blue;
+        /* there is no CSS color "navy blue", but there is "navy".
+         * Check this out: http://www.w3schools.com/colors/colors_hex.asp
+         */
+        color: navy blue; 
         font-size: 20px;
-        font-weight: 300px;
+        font-weight: 300px; /* font-weight is not a px value.  300 is valid, but 300px is not */
         padding-top: 100px;
         clear: both;
         display: inline-block;
