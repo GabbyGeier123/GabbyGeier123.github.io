@@ -59,7 +59,7 @@ a:active {
     margin-top: 40px;
     width:70%;
     display: inline-block;
-    margin-left: 250px;
+    margin-left: 300px;
     margin-bottom: 40px;
     clear: both;
 
@@ -87,6 +87,17 @@ a:active {
         box-shadow: 20px 10px 5px #888888;
         margin-top: 70px
 }*/
+
+#ReadMore {
+        font-style: bold;
+        color: #000033;
+        padding-bottom: 30px;
+        font-weight: 600;
+        font-size: 45px;
+        clear: both;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+}
 #whitebox {
         background-color: white;
         opacity: .5;

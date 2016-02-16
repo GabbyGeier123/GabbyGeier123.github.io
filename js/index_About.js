@@ -1,14 +1,9 @@
 $(document).ready(function(){
 
-    $("#ex").click(function(){
-        $("#1").slideToggle();
-    });
+    $("#whitebox").hide();
 
-    $("#sk").click(function(){
-        $("#2").slideToggle();
+    $("#ReadMore").click(function(){
+        $("#whitebox").slideDown();
+        $("#ReadMore").hide();
     });
-
-    $("#ed").click(function(){
-    $("#3").slideToggle();
-    });
-    });
+        });
