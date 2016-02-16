@@ -1,0 +1,85 @@
+ @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic');
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #00cc44;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+hr {
+    color: white;
+    margin-top: 30px;
+    width: 600px;
+    height: 0px;
+    margin-right: 5%;
+    margin-left: 50%;
+
+}
+html {   
+        background-image: url("home_cover1.jpg");
+        background-size: 160%;
+        background-repeat: no-repeat;         
+        height: 1000px;
+        width: 1000px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        clear: both;
+  
+}
+#logo {
+        padding-top: 30px;
+        padding-left: 10%;
+        clear: both;
+        display: inline-block;
+        height: 100px;
+
+}
+.header {
+         font-family: 'Open Sans', sans-serif;
+         padding-top: 130px;
+         margin-right: 33%;
+         margin-left: 17%;
+         color: white;
+         text-align: center;
+         font-size: 30px;
+         font-weight: 600;
+         width: 100%;
+         clear: both;
+         list-style: none;
+
+ }
+ li {
+        display: inline;
+        padding-right: 10%;
+        margin: auto;
+        clear: both;
+ }
+#footer {
+    margin: auto;
+    clear:both;
+    display: inline-block;
+    width: 500px;
+    padding-top: 40px;
+    margin-left: 69%
+
+}
+.social {
+    height: 30px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
