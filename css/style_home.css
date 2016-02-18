@@ -29,11 +29,22 @@ hr {
 
 }
 html {   
+<<<<<<< HEAD:FinalProject/css/style_home.css
+        /* Nice use of background-image, but it is better form to have all of your images in the 
+         * "images" folder and just have CSS in your CSS folder. 
+         */
+        background-image: url("home_cover1.jpg");        
+         min-height: 100%;
+         min-width: 1024px;
+          width: 100%;
+        height: auto;
+=======
         background-image: url("home_cover1.jpg");
         background-size: 160%;
         background-repeat: no-repeat;         
         height: 1000px;
         width: 1000px;
+>>>>>>> GabbyGeier123/master:css/style_home.css
         position: fixed;
         top: 0;
         left: 0;
