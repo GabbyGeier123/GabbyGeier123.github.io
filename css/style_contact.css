@@ -1,0 +1,93 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic');
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #00cc44;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.header {
+         font-family: 'Open Sans', sans-serif;
+         width: 100%;
+         height: 130px;
+         background: black;
+ }
+ #background {
+        background-image: url("219.jpg");
+        background-size: 100%;
+        height: 800px;
+ }
+ #logo {
+        padding-top: 20px;
+        padding-left: 10%;
+        clear: both;
+        display: inline-block;
+        height: 90px;
+ }
+ .header ul {
+         color: white;
+         text-align: right;
+         font-size: 20px;
+         font-weight: 600;
+         clear: both;
+         list-style: none;
+         padding-right: 20px;
+         float: right;
+         padding-top: 70px;
+ }
+ li {
+        display: inline;
+        margin-top: 40px;
+         margin-right: 40px;
+         clear: both;
+ }
+h1 {
+        font-style: bold;
+        color: #000033;
+        padding-top: 30px;
+        font-weight: 600;
+        font-size: 45px;
+        clear: both;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        padding-top: 250px;
+}
+p {
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        color: navy blue;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        padding-top: 20px;
+        line-height: 25px;
+}
+#footer {
+    margin-left: 42%;
+}
+footer {
+    background-color: #79d3a6;
+    height: 150px;
+        clear: both;
+}
+.social {
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
