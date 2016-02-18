@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+/* 
+	Nicely done! This is just like the example carousel that we did in class.
+	Tomorrow we are going to go over another way to create a carousel.  No pressure to use it,
+	but something to take a look at - stay tuned!
+*/
+
 var images = ["images/1.jpg", 
 			"images/2.jpg", 
 			"images/3.jpg", 
