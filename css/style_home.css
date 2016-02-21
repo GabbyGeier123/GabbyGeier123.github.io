@@ -1,4 +1,4 @@
- @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic');
+ @import url('http://fonts.googleapis.com/css?family=Cabin');
 a:link {
     color: white;
     background-color: transparent;
@@ -22,10 +22,10 @@ a:active {
 hr {
     color: white;
     margin-top: 30px;
-    width: 600px;
+    width: 80%;
     height: 0px;
-    margin-right: 5%;
-    margin-left: 50%;
+    margin-right: 15%;
+    margin-left: 40%;
 
 }
 html {   
@@ -40,19 +40,19 @@ html {
         clear: both;
   
 }
-#logo {
+ #logo {
         padding-top: 30px;
-        padding-left: 10%;
+        padding-left: 15.75%;
         clear: both;
         display: inline-block;
+        width: 80px;
         height: 100px;
-
 }
 .header {
-         font-family: 'Open Sans', sans-serif;
-         padding-top: 130px;
-         margin-right: 33%;
-         margin-left: 17%;
+         font-family: 'Cabin', sans-serif;
+         padding-top: 200px;
+         margin-right: 35%;
+         margin-left: 35%;
          color: white;
          text-align: center;
          font-size: 30px;

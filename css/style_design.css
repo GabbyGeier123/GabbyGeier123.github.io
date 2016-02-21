@@ -1,0 +1,164 @@
+ @import url('http://fonts.googleapis.com/css?family=Cabin');
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #00cc44;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+#g {
+  background-image: url("white-g.png") !important;
+  background-size: 80px 100px;
+  width:200px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 10%;
+  background-repeat: no-repeat;
+  clear: both;
+  float: left;
+  position: fixed;
+  top: 0;
+}
+#menu {
+    background-image: url("menu-white.png") !important;
+     background-size: 50px 50px;
+       margin-top: 50px;
+    width:150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    float: right;
+}
+#header {
+         font-family: 'Cabin', sans-serif;
+         width: 300px;
+         height: 500px;
+         background: #21004B;
+         float: right;
+         clear: both;
+         display: none;
+ }
+  body {
+        background-image: url("28.JPG");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 750px;
+        top: 0;
+ }
+.expand {
+    display: block !important; 
+    }
+ #logo {
+        padding-top: 30px;
+        padding-left: 10%;
+        clear: both;
+        display: inline-block;
+        width: 80px;
+        height: 100px;
+}
+ #header ul {
+    font-family: 'Cabin', sans-serif;
+         color: white;
+         text-align: left;
+         font-size: 30px;
+         font-weight: 400;
+         clear: both;
+         list-style: none;
+         float: right;
+         padding-right: 60px;
+         padding-top: 70px;
+ }
+ li {
+    padding-bottom: 50px;
+ }
+
+ .design {
+  width: 270px;
+  height: 270px;
+  background-color: white;
+   border-style: ridge;
+    border-color: white;
+    border-width: 5px;
+    padding-top: 200px;
+    padding-left: 20px;
+    display:inline-block;
+    margin-left: 30px;
+  }
+button {
+    font-size: 12px !important;
+    background: #21004B !important;
+    border: none !important;
+    color: white !important;
+  }
+
+ .modes{
+ display: inline-block;
+ width: 100%;
+ margin-left: 20%; 
+ margin-right: 20%;
+}
+.modes2{
+ display: inline-block;
+ width: 100%;
+ margin-left: 20%; 
+ margin-right: 20%;
+ margin-top: 20px;
+}
+#tshirt {
+  background-image: url("tsfinal.png");
+  background-size: 250px 250px;
+  background-repeat: no-repeat;
+}
+
+#logos {
+  background-image: url("logo-cover.png");
+  background-size: 250px 250px;
+  background-repeat: no-repeat;
+}
+#website {
+  background-image: url("web.png");
+  background-size: 250px 250px;
+  background-repeat: no-repeat;
+}
+#wedding {
+  background-image: url("itin.png");
+  background-size: 250px 250px;
+  background-repeat: no-repeat;
+}
+#brochure {
+  background-image: url("front.png");
+  background-size: 250px 250px;
+  background-repeat: no-repeat;
+}
+#one, #two, #three, #four, #five, #six {
+  display: inline-block;
+  width: 20%;
+}
+#flyer {
+  background-image: url("flyer-modal.png");
+  background-size: 250px 250px;
+  background-repeat: no-repeat;
+}
+/*Design
+ -Wedding invitations/coozy
+ -educational brochures
+ -logos (20th anniversary)
+ -website creative (design class)
+ -awareness t-shirts
+ -event flyers 
+
+ Hover to read description (image shows design item); when click, pulls out a MODAL
+  (background black opaque, like twitter); X out to go back to screen
+*/

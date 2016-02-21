@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic');
+ @import url('http://fonts.googleapis.com/css?family=Cabin');
 a:link {
     color: white;
     background-color: transparent;
@@ -19,75 +19,104 @@ a:active {
     background-color: transparent;
     text-decoration: none;
 }
-.header {
-         font-family: 'Open Sans', sans-serif;
-         width: 100%;
-         height: 130px;
-         background: black;
+#menu {
+    width: 50px;
+    height: 50px;
+    float: right;
+    clear: both;
+    padding-top: 50px;
+    padding-right: 70px;
+}
+#header {
+         font-family: 'Cabin', sans-serif;
+         width: 300px;
+         height: 400px;
+         background: #21004B;
+         float: right;
+         clear: both;
+         display: none;
  }
- #background {
-        background-image: url("219.jpg");
+  body {
+        background-image: url("39.jpg");
         background-size: 100%;
-        height: 800px;
+        background-repeat: no-repeat;
+        height: 750px;
+        top: 0;
+        float: top;
  }
+.expand {
+    display: block !important; 
+    }
  #logo {
-        padding-top: 20px;
+        padding-top: 30px;
         padding-left: 10%;
         clear: both;
         display: inline-block;
-        height: 90px;
- }
- .header ul {
+        width: 80px;
+        height: 100px;
+}
+ #header ul {
+    font-family: 'Cabin', sans-serif;
          color: white;
-         text-align: right;
-         font-size: 20px;
-         font-weight: 600;
+         text-align: left;
+         font-size: 30px;
+         font-weight: 400;
          clear: both;
          list-style: none;
-         padding-right: 20px;
          float: right;
+         padding-right: 60px;
          padding-top: 70px;
  }
  li {
-        display: inline;
-        margin-top: 40px;
-         margin-right: 40px;
-         clear: both;
+    padding-bottom: 50px;
  }
 h1 {
         font-style: bold;
-        color: #000033;
+        color: white;
         padding-top: 30px;
         font-weight: 600;
         font-size: 45px;
         clear: both;
         text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        color: white;
-        padding-top: 250px;
+        font-family: 'Cabin', sans-serif;
+        padding-top: 100px;
 }
-p {
-        font-family: 'Open Sans', sans-serif;
+#text p {
+        font-family: 'Cabin', sans-serif;
         text-align: center;
-        color: navy blue;
         font-size: 20px;
         font-weight: 400;
         color: white;
         padding-top: 20px;
         line-height: 25px;
 }
-#footer {
-    margin-left: 42%;
+#text hr {
+    width: 20%;
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-top: 2%;
 }
-footer {
-    background-color: #79d3a6;
-    height: 150px;
-        clear: both;
+#footer {
+    clear:both;
+    display: inline-block;
+    width: 15%;
+    padding-top: 40px;
+    margin-left: 43%;
+    margin-right: 43%;
+    margin-top: 300px;
+    position: fixed;
+
 }
 .social {
-    height: 40px;
+    height: 30px;
+    margin: auto;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 40px;
-    padding-top: 40px;
 }
+#text {
+  position: fixed;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+

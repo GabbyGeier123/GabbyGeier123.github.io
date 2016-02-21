@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic');
+@import url('http://fonts.googleapis.com/css?family=Cabin');
 a:link {
     color: white;
     background-color: transparent;
@@ -19,76 +19,103 @@ a:active {
     background-color: transparent;
     text-decoration: none;
 }
-.header {
-         font-family: 'Open Sans', sans-serif;
-         width: cover;
-         height: 130px;
-         background: black;
+#menu {
+    width: 50px;
+    height: 50px;
+    float: right;
+    clear: both;
+    padding-top: 50px;
+    padding-right: 70px;
+}
+#header {
+         font-family: 'Cabin', sans-serif;
+         width: 300px;
+         height: 400px;
+         background: #21004B;
+         float: right;
+         clear: both;
+         display: none;
  }
- #background {
-        background-image: url("1994.jpg");
-        background-size: 100%;
-        height: 750px;
-
- }
+ .expand {
+    display: block !important; 
+    }
  #logo {
-        padding-top: 20px;
+        padding-top: 30px;
         padding-left: 10%;
         clear: both;
         display: inline-block;
-        height: 90px;
+        width: 80px;
+        height: 100px;
+}
+ body {
+        background-image: url("1994.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 730px;
+        top: 0;
+        float: top;
  }
- .header ul {
+ #header ul {
+    font-family: 'Cabin';
          color: white;
-         text-align: right;
-         font-size: 20px;
-         font-weight: 700px;
+         text-align: left;
+         font-size: 30px;
+         font-weight: 400;
          clear: both;
          list-style: none;
-         padding-right: 20px;
          float: right;
+         padding-right: 60px;
          padding-top: 70px;
  }
  li {
-        display: inline;
-        margin-top: 40px;
-         margin-right: 40px;
-         clear: both;
+    padding-bottom: 50px;
  }
  h1 {
     font-style: bold;
         color: white;
-        padding-top: 20px;
         font-weight: 600;
         font-size: 45px;
         clear: both;
         text-align: center;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Cabin';
  }
 
  p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Cabin';
     color: white;
     font-size: 20px;
     font-weight: 400;
     line-height: 120%;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 10px;
 
  }
  #image {
-    height: 400px;
-    width: 700px;
-    margin-left: 28%;
-    margin-right: 50%;
-    padding-top: 20px;
+    height:480px;
+    width: 45%;
+    margin-left: 27%;
+    margin-right: 25%;
+    border-style: ridge;
+    border-color: white;
+    border-width: 12px;
  }
  #imageRotate {
-    margin-left: 45%;
+    margin-left: 47%;
     margin-right: 45%;
-    padding-top: 20px;
+    padding-top: 2px;
+    width: 10%;
     clear: both;
     display: inline-block;
+ }
+
+ #back, #next {
+    margin-right: 10px;
+    font-family: 'Cabin';
+    font-size: 15px;
+    color: white;
+    background-color: #21004B;
+
  }
 
 #footer {
@@ -106,4 +133,8 @@ footer {
     padding-right: 20px;
     padding-bottom: 40px;
     padding-top: 50px;
+}
+#everything {
+    position: fixed;
+    z-index: -1;
 }

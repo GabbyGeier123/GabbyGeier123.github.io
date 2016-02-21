@@ -1,4 +1,4 @@
- @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic');
+ @import url('http://fonts.googleapis.com/css?family=Cabin');
 a:link {
     color: white;
     background-color: transparent;
@@ -19,84 +19,91 @@ a:active {
     background-color: transparent;
     text-decoration: none;
 }
-.header {
-         font-family: 'Open Sans', sans-serif;
-         width: 100%;
-         height: 130px;
-         background: black;
+#menu {
+    width: 50px;
+    height: 50px;
+    float: right;
+    clear: both;
+    padding-top: 50px;
+    padding-right: 70px;
+}
+#header {
+         font-family: 'Cabin', sans-serif;
+         width: 300px;
+         height: 400px;
+         background: #21004B;
+         float: right;
+         clear: both;
+         display: none;
  }
- #background {
-        background-image: url("1.jpg");
-        background-size: 100%;
-        height: 1000px;
-
- }
+ .expand {
+    display: block !important; 
+    }
  #logo {
-        padding-top: 20px;
+        padding-top: 30px;
         padding-left: 10%;
         clear: both;
         display: inline-block;
-        height: 90px;
+        width: 80px;
+        height: 100px;
+}
+ body {
+        background-image: url("1.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 1100px;
+        top: 0;
+        float: top;
  }
- .header ul {
+ #header ul {
+    font-family: 'Cabin', sans-serif;
          color: white;
-         text-align: right;
-         font-size: 20px;
-         font-weight: 600;
+         text-align: left;
+         font-size: 30px;
+         font-weight: 400;
          clear: both;
          list-style: none;
-         padding-right: 20px;
          float: right;
+         padding-right: 60px;
          padding-top: 70px;
  }
  li {
-        display: inline;
-        margin-top: 40px;
-         margin-right: 40px;
-         clear: both;
+    padding-bottom: 50px;
  }
  #about {
-    margin-top: 40px;
-    width:70%;
+    margin-top: 20px;
+    width:60%;
     display: inline-block;
     margin-left: 300px;
     margin-bottom: 40px;
     clear: both;
-
- }
+  }
  #title {
         font-style: bold;
-        color: #000033;
-        padding-top: 30px;
+        color:#21004B;
         font-weight: 600;
         font-size: 45px;
         clear: both;
+        margin-left: 44%;
+        margin-right:44%;
         text-align: center;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Cabin', sans-serif;
+        display: inline-block;
  }
- /*#picture {
-    width: 20%;
-    height: 30%;
-    display: inline-block;
- }
-#GGimage {
-        float: left;
-        height: 400px;
-        margin-left: 120px;
-        width: 400px;
-        box-shadow: 20px 10px 5px #888888;
-        margin-top: 70px
-}*/
-
-#ReadMore {
+.toggle {
         font-style: bold;
-        color: #000033;
+        color: #21004B;
         padding-bottom: 30px;
         font-weight: 600;
         font-size: 45px;
         clear: both;
         text-align: center;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Cabin', sans-serif;
+        margin-top: 300px;
+}
+section {
+    position: relative;
+
 }
 #whitebox {
         background-color: white;
@@ -106,79 +113,72 @@ a:active {
         margin-left: 15%;
         margin-right: 15%;
         clear: both;
-}
-#resume {
-        list-style-type: none;
-        float: left;
-        width: 100%;
-        margin-left: 100px;
-        clear: both;
+        position: absolute;
+        top:0;
+        display: none;
 
 }
+#box {
+        position: absolute;
+        top:0;
+        padding-top: 30px;
+        width: 100%;
+}
 #experience {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Cabin', sans-serif;
         text-align: left;
-        color: #000033;
+        color: #21004B;
         font-size: 20px;
         font-weight: 400;
         line-height: 120%;
-        width: 25%;
+        width: 20%;
         display: inline-block;
+        z-index: 99;
+        padding-left: 350px;
+        vertical-align: text-top;
 
 }
 #skills {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Cabin', sans-serif;
         text-align: left;
-        color: #000033;
+        color: #21004B;
         font-size: 20px;
         font-weight: 400;
         line-height: 120%;
-        width: 25%;
+        width: 20%;
         display: inline-block;
-        padding-left: 40px;
+        vertical-align: text-top;
 
 }
 #education{
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Cabin', sans-serif;
         text-align: left;
-        color: #000033;
+        color: #21004B;
         font-size: 20px;
         font-weight: 400;
         line-height: 120%;
-        width: 25%;
+        width: 20%;
         display: inline-block;
         clear: both;
-
+        vertical-align: text-top;
 }
 
 h1 {
         font-style: bold;
-        padding-top: 30px;
         font-weight: bold;
         font-size: 25px;
         clear: both;
 }
 .hi {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Cabin', sans-serif;
         text-align: left;
-        color: #000033;
+        color: #21004B;
         font-size: 20px;
         font-weight: 400;
         line-height: 120%;
-}
-#footer {
-	margin-left: 42%;
-}
-footer {
-    margin-top: 170px;
-	background-color: #79d3a6;
-	height: 150px;
         clear: both;
 }
-.social {
-    height: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 40px;
-    padding-top: 40px;
+#everything {
+    position: fixed;
+    z-index: -1;
 }
