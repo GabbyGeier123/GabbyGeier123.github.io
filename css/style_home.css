@@ -26,56 +26,52 @@ hr {
     height: 0px;
     margin-right: 15%;
     margin-left: 40%;
-
 }
-html {   
-        background-image: url("home_cover1.jpg");
-        background-size: 160%;
-        background-repeat: no-repeat;         
-        height: 1000px;
-        width: 1000px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        clear: both;
-  
+html {
+    background-image: url("home_cover1.jpg");
+    background-size: 160%;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1000px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    clear: both;
 }
- #logo {
-        padding-top: 30px;
-        padding-left: 15.75%;
-        clear: both;
-        display: inline-block;
-        width: 80px;
-        height: 100px;
+#logo {
+    padding-top: 30px;
+    padding-left: 15.75%;
+    clear: both;
+    display: inline-block;
+    width: 80px;
+    height: 100px;
 }
 .header {
-         font-family: 'Cabin', sans-serif;
-         padding-top: 200px;
-         margin-right: 35%;
-         margin-left: 35%;
-         color: white;
-         text-align: center;
-         font-size: 30px;
-         font-weight: 600;
-         width: 100%;
-         clear: both;
-         list-style: none;
-
- }
- li {
-        display: inline;
-        padding-right: 10%;
-        margin: auto;
-        clear: both;
- }
+    font-family: 'Cabin', sans-serif;
+    padding-top: 200px;
+    margin-right: 35%;
+    margin-left: 35%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    width: 100%;
+    clear: both;
+    list-style: none;
+}
+li {
+    display: inline;
+    padding-right: 10%;
+    margin: auto;
+    clear: both;
+}
 #footer {
     margin: auto;
-    clear:both;
+    clear: both;
     display: inline-block;
     width: 500px;
     padding-top: 40px;
     margin-left: 69%
-
 }
 .social {
     height: 30px;

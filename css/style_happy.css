@@ -28,59 +28,58 @@ a:active {
     padding-right: 70px;
 }
 #header {
-         font-family: 'Cabin', sans-serif;
-         width: 300px;
-         height: 400px;
-         background: #21004B;
-         float: right;
-         clear: both;
-         display: none;
- }
- .expand {
-    display: block !important; 
-    }
- #logo {
-        padding-top: 30px;
-        padding-left: 10%;
-        clear: both;
-        display: inline-block;
-        width: 80px;
-        height: 100px;
+    font-family: 'Cabin', sans-serif;
+    width: 300px;
+    height: 400px;
+    background: #21004B;
+    float: right;
+    clear: both;
+    display: none;
 }
- body {
-        background-image: url("1994.jpg");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: 730px;
-        top: 0;
-        float: top;
- }
- #header ul {
+.expand {
+    display: block !important;
+}
+#logo {
+    padding-top: 30px;
+    padding-left: 10%;
+    clear: both;
+    display: inline-block;
+    width: 80px;
+    height: 100px;
+}
+body {
+    background-image: url("1994.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 730px;
+    top: 0;
+    float: top;
+}
+#header ul {
     font-family: 'Cabin';
-         color: white;
-         text-align: left;
-         font-size: 30px;
-         font-weight: 400;
-         clear: both;
-         list-style: none;
-         float: right;
-         padding-right: 60px;
-         padding-top: 70px;
- }
- li {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 400;
+    clear: both;
+    list-style: none;
+    float: right;
+    padding-right: 60px;
+    padding-top: 70px;
+}
+li {
     padding-bottom: 50px;
- }
- h1 {
+}
+h1 {
     font-style: bold;
-        color: white;
-        font-weight: 600;
-        font-size: 45px;
-        clear: both;
-        text-align: center;
-        font-family: 'Cabin';
- }
-
- p {
+    color: white;
+    font-weight: 600;
+    font-size: 45px;
+    clear: both;
+    text-align: center;
+    font-family: 'Cabin';
+}
+p {
     font-family: 'Cabin';
     color: white;
     font-size: 20px;
@@ -89,35 +88,32 @@ a:active {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
-
- }
- #image {
-    height:480px;
+}
+#image {
+    height: 480px;
     width: 45%;
     margin-left: 27%;
     margin-right: 25%;
     border-style: ridge;
     border-color: white;
     border-width: 12px;
- }
- #imageRotate {
+}
+#imageRotate {
     margin-left: 47%;
     margin-right: 45%;
     padding-top: 2px;
     width: 10%;
     clear: both;
     display: inline-block;
- }
-
- #back, #next {
+}
+#back,
+#next {
     margin-right: 10px;
     font-family: 'Cabin';
     font-size: 15px;
     color: white;
     background-color: #21004B;
-
- }
-
+}
 #footer {
     margin-left: 42%;
 }
@@ -125,7 +121,141 @@ footer {
     background-color: #79d3a6;
     height: 150px;
     clear: both;
-
+}
+.social {
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+#everything {
+    position: fixed;
+    z-index: -1;
+}
+@import url('http://fonts.googleapis.com/css?family=Cabin');
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #00cc44;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+#menu {
+    width: 50px;
+    height: 50px;
+    float: right;
+    clear: both;
+    padding-top: 50px;
+    padding-right: 70px;
+}
+#header {
+    font-family: 'Cabin', sans-serif;
+    width: 300px;
+    height: 400px;
+    background: #21004B;
+    float: right;
+    clear: both;
+    display: none;
+}
+.expand {
+    display: block !important;
+}
+#logo {
+    padding-top: 30px;
+    padding-left: 10%;
+    clear: both;
+    display: inline-block;
+    width: 80px;
+    height: 100px;
+}
+body {
+    background-image: url("1994.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 730px;
+    top: 0;
+    float: top;
+}
+#header ul {
+    font-family: 'Cabin';
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 400;
+    clear: both;
+    list-style: none;
+    float: right;
+    padding-right: 60px;
+    padding-top: 70px;
+}
+li {
+    padding-bottom: 50px;
+}
+h1 {
+    font-style: bold;
+    color: white;
+    font-weight: 600;
+    font-size: 45px;
+    clear: both;
+    text-align: center;
+    font-family: 'Cabin';
+}
+p {
+    font-family: 'Cabin';
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#image {
+    height: 480px;
+    width: 45%;
+    margin-left: 27%;
+    margin-right: 25%;
+    border-style: ridge;
+    border-color: white;
+    border-width: 12px;
+}
+#imageRotate {
+    margin-left: 47%;
+    margin-right: 45%;
+    padding-top: 2px;
+    width: 10%;
+    clear: both;
+    display: inline-block;
+}
+#back,
+#next {
+    margin-right: 10px;
+    font-family: 'Cabin';
+    font-size: 15px;
+    color: white;
+    background-color: #21004B;
+}
+#footer {
+    margin-left: 42%;
+}
+footer {
+    background-color: #79d3a6;
+    height: 150px;
+    clear: both;
 }
 .social {
     height: 40px;
