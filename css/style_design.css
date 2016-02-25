@@ -44,12 +44,16 @@ a:active {
 #header {
     font-family: 'Cabin', sans-serif;
     width: 300px;
-    height: 500px;
     background: #21004B;
     float: right;
     clear: both;
-    display: none;
+    height: 0;
+     overflow: hidden;
+     transition: 1s;
 }
+ #header.addition {
+     height: 400px;
+ }
 body {
     background-image: url("28.JPG");
     background-size: 100%;

@@ -30,11 +30,15 @@
  #header {
      font-family: 'Cabin', sans-serif;
      width: 300px;
-     height: 400px;
      background: #21004B;
      float: right;
      clear: both;
-     display: none;
+     height: 0;
+     overflow: hidden;
+     transition: 1s;
+ }
+  #header.addition {
+     height: 400px;
  }
  body {
      background-image: url("39.jpg");

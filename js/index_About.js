@@ -19,13 +19,12 @@ $(document).ready(function(){
     });
 
     $("#menu").click(function(){
-     $("#header").toggleClass("expand");
+     $("#header").toggleClass("addition");
      $("#menu").hide();
     });
 
     $("#header").click(function(){
-     $("#header").toggleClass("expand");
-     $("#header").hide();
+     $("#header").toggleClass("addition");
      $("#menu").show();
     });
         });
